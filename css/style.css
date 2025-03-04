@@ -30,3 +30,37 @@ body{
     font-size: 2.5rem;
     vertical-align: middle;
 }
+
+/* container */
+
+.container{
+    border: 1px solid black;
+    background-color: white;
+    max-width: 900px ;
+    height: 1000px;
+    margin: 50px auto;
+    padding: 10px 60px;
+}
+
+/* button */
+
+.button{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px 10px;   
+}
+
+.button-blue{
+    background-color: #44AEEC;
+    border-color: #44AEEC;
+    color: white;
+    border: none;
+}
+
+.button-white{
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+}

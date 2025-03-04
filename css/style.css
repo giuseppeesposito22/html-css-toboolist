@@ -12,6 +12,26 @@ body{
 
 /* utils */
 
+.task{
+    margin-top: 30px;
+}
+
+.to-do{
+    margin-top: 10px;
+}
+
+
+
+.check{
+    border: 1px solid green;
+    color: green;
+}
+
+.label-blu{
+    border: none;
+    background-color: #3EABE8;
+}
+
 
 
 /* header */
@@ -34,12 +54,14 @@ body{
 /* container */
 
 .container{
+    font-size: 1.5rem;
     border: 1px solid black;
     background-color: white;
     max-width: 900px ;
     height: 1000px;
     margin: 50px auto;
     padding: 10px 60px;
+    border-radius: 5px;
 }
 
 /* button */
@@ -63,4 +85,33 @@ body{
     background-color: white;
     color: grey;
     border: 1px solid grey;
+}
+
+/* intestazioni to do list */
+
+.style-font{
+    color: #4C4C4C;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.spunte{
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.label{
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 15px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
 }
